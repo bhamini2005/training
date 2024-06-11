@@ -1,0 +1,2 @@
+# training
+daily diary
