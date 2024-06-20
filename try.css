@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    display: flex;
+    
+}
+h1{
+    text-align: center;
+}
+.aa{
+    padding: 10px;
+    background-color: aqua;
+    flex:1;
+
+}
+.bb{
+    padding: 10px;
+    background-color: brown;
+    flex:1;    
+}
+@media screen and (max-width:720px){
+.parent {
+    display:block;
+    }
+}
+ 
+ nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    background-color: black;
+    height: 100px;
+
+    
+ } 
+
+ nav a{
+    color:white;
+    text-decoration: none; 
+    padding: 10px 20px;
+ }
+ nav a:hover{
+    color: black;
+    background-color: white;
+}
+
+ 
+ 
+ 
